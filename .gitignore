@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Data (DVC will track these later)
+data/
+
+# Environment variables
+.env
+
+# MLflow artifacts (tracked separately)
+mlruns/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
